@@ -1,5 +1,64 @@
-h1 {
-    background-color: black;
-    color: white;
+.title {
+    color: rgb(216, 75, 75);
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 60px;
+}
+
+.paragraph-1 {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 32px;
+}
+
+body {
+    background-color:rgb(80, 249, 255);
+}
+
+img {
+    height: auto;
+    width: 350px;
+    border: 10px ridge red;
+}
+
+.displayed {
+    display: block;
+    margin: auto;
+}
+
+.ordered-list {
+    font-size: 26px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+.headers {
+    text-align: right;
+}
+
+.unordered-list {
+    text-align: right;
+    font-size: 20px;
+    color:brown;
+    background-color: floralwhite;
+    padding: 10px;
+    border: 5px red dashed;
+}
+
+.headers.lasagne {
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.lasagne-para {
+    background-color: slategrey;
+    color:whitesmoke;
+    text-align: center;
+    display: inline;
 }

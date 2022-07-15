@@ -3,16 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>Spaghetti recipes</title>
+        <link rel="stylesheet" href="../styles.css">
     </head>
     <body>
-        <h1>Spaghetti</h1>
-        <img src="../img/spaghetti.jpeg" alt="spaghetti picture">
+        <h1 class="title">Spaghetti</h1>
+        <img class="displayed" src="../img/spaghetti.jpeg" alt="spaghetti picture">
 
-        <h2>Description:</h2>
+        <h2 class="headers">Description:</h2>
         <p><em>Spaghetti</em> - a type of long, thin pasta, the basis of dishes of traditional Italian cuisine. A typical dish consists of a portion of freshly cooked pasta mixed with the appropriate sauce and optionally sprinkled with cheese.</p>
         
-        <h2>Ingredients:</h2>
-        <ul>
+        <h2 class="headers">Ingredients:</h2>
+        <div class="unordered-list">
+        <ul style="display:inline-block">
             <li>1 tablespoon olive oil</li>
             <li>2 pounds sweet Italian sausage</li>
             <li>1 pound fresh mushrooms, sliced</li>
@@ -29,12 +31,15 @@
             <li>1 (16 ounce) package spaghetti, or as needed</li>
             <li>¼ cup grated Parmesan cheese, or to taste</li>
         </ul>
+        </div>
 
-        <h2>Steps:</h2>
-        <ol>
+        <h2 class="headers">Steps:</h2>
+        <div class="ordered-list">
+        <ol style="display:inline-block; background-color: lightcyan; border: 5px double green;">
             <li>Heat olive oil in a large skillet over medium-high heat. Cook and stir sausage, mushrooms, onion, green bell pepper, and garlic in hot oil until sausage is browned and crumbly, about 20 minutes; drain and discard grease.</li>
             <li>Stir tomato sauce, diced tomatoes, tomato paste, and olives into sausage mixture; season with oregano, basil, and salt. Simmer mixture until flavors infuse, about 30 minutes.</li>
             <li>Bring a large pot of lightly salted water to a boil. Cook spaghetti in boiling water, stirring occasionally, until cooked through but firm to the bite, about 12 minutes. Drain and transfer to a serving bowl; top with tomato-sausage sauce and Parmesan cheese.</li>
         </ol>
+        </div>
     </body>
 </html>
